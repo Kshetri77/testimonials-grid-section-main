@@ -1,0 +1,110 @@
+
+/* Google fonts : import 400 and 700 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/* Setting CSS varaiables for colors */
+:root{
+  --white:hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+
+
+/* Setting border-box property for all componenets */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  margin:0;
+}
+
+body{
+  margin: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background: var(--white);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400; /*normal boldness*/
+  font-size: 15px;
+  margin: auto;
+  background: hsl(212, 45%, 89%);
+  }
+
+.container{
+  text-align: center;
+  line-height: 1.5rem;
+  border-radius: 1rem;
+  background: white;
+  height: 90%;
+  width:85%;
+  border-radius: 1rem;
+  margin:3rem auto;
+  padding:1rem 0.3rem;
+
+}
+
+.qrcode{
+  height: 60%;
+  width: 100%;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding:1rem;
+}
+
+.qr-img{
+height:100%;
+width:100%;
+border-radius: 1rem;
+
+}
+
+.text-area{
+  height: 40%;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+h2{
+  font-weight: 700;
+}
+
+.paragraph{
+  color:rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-device-width: 481px)
+{
+
+.container{
+width:65%;
+}
+
+
+
+}
+@media screen and (min-device-width: 640px){
+
+
+
+.container{
+  height:60%;
+  width:45%;
+
+}
+
+}
+@media screen and (min-device-width: 818px){
+
+
+
+.container{
+  width:35%;
+
+}
+
+}
